@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat';
+    
+    
+}
+.menu{
+    display: none;
+}
+
+body{
+    background-color:#181719;
+    ;
+}
+.logo{
+    border: 1px solid white;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.links a{
+    margin-right: 86px;
+    text-decoration: none;
+}
+
+ a:hover{
+    border-bottom: 2px solid #FFFF;
+}
+
+.right img{
+    width: 737px;
+    height: 555px;
+}
+
+.container{
+    align-items: center;
+    margin:0px 20px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+
+.left h1{
+    font-size: 48px;
+    margin-bottom: 170px;
+
+}
+.left p{
+    margin-top: -120px;
+    font-size: 24px;
+    width: 350px;
+}
+.left a{
+    text-decoration: none;
+    line-height: 100px;
+}
+
+.post {
+    background: #181719;
+    width: 410px;
+    height: 190px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    padding: 20px;
+    left: 790px;
+    top: -78px;
+
+}
+
+
+.post img{
+    width: 45px;
+    height: 62px;
+    border-radius: 50px;
+}
+.post p{
+    position: absolute;
+    top: 30px;
+    left: 76px;
+    
+}
+ h1{
+    font-family: 'lora';
+}
+.logo h1{
+    font-family: 'Crimson Pro';
+    padding: 10px;
+}
+.footer{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.ham{
+    padding: 2px;
+    background-color: white;
+    width: 30px;
+    margin: 5px 0px;
+
+}
+.hb{
+    display: none;
+}
+
+
+@media screen and (max-width:500px) {
+.links{
+   display: none;
+}
+.top{
+    justify-content: space-between;
+}
+.hb{
+    display: block;
+    z-index: 2;
+
+}
+.post{
+    top: -56px;
+    left:50px;
+    width: 350px;
+    height: 146px;
+}
+.post h1{
+    font-size: 20px;
+}
+
+.right img{
+    width: 392px;
+    height: 280px;
+}
+
+  .left p{
+      font-size: 15px;
+      font-weight:100;
+      line-height: 20px;
+  }  
+  .left h1{
+      font-size: 36px;
+      
+  }
+  .container{
+      margin-top: 30px;
+  }
+  .footer p{
+      font-size: 14px;
+  }
+  
+  .menu{
+      position: absolute;
+      z-index: 1;
+      display: none;
+      
+      flex-direction: column;
+      text-align: center;
+      line-height: 60px;
+      height:657px;
+      width: 100%;
+      top: -700px;
+      padding: 50px;
+      background: #181719;
+
+    
+  }
+
+  .menu a{
+      border: none;
+      margin-top: 60px;
+      text-decoration: none;
+  }
+
+  .none{
+      display: none;
+      
+  }
+  .anim{
+      top: 0px;
+  }
+}
