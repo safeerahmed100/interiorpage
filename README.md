@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://clever-bubblegum-993acc.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -69,6 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.com](https://clever-bubblegum-993acc.netlify.app/)
+- GitHub [@your-username](https://github.com/safeerahmed100)
